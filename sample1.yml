@@ -1,0 +1,6 @@
+---
+ -- name: Sample yaml file
+    hosts: "*"
+   -- name: Create file
+      file: "path=/var/tmp/test status=touch"
+...
